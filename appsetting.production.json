@@ -1,0 +1,19 @@
+{
+  "jwtConfig": {
+    "secretKey": "kjdsadjskadjkasdjksadjkajdajkdlkgjfdhjfjk",
+    "guestSecretKey": "dklsakldsajkghjfhhjhjhjdhjsdsddasda",
+    "expire": "7d",
+    "payload": "dsadasd"
+  },
+  "cookieConfig": {
+    "expires": 50000000000
+  },
+  "authKey": "accesstoken",
+  "rabbitMQConfig": {
+    "url": "localhost",
+    "port": "8866"
+  },
+  "cacheKey": {
+    "joinIn": "guestJoinIn_"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "ment_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "pool": {
+      "min": 0,
+      "max": 5,
+      "idle": 10000
+    },
+    "define": {
+      "charset": "utf8",
+      "dialectOptions": {
+        "collate": "utf8_general_ci"
+      }
+    },
+    "timezone": "+07:00"
+  },
+  "product_development": {
+    "username": "ment_usr",
+    "password": "fAT9nVCgKpQRDUiF",
+    "database": "ment_db",
+    "host": "144.91.123.108",
+    "dialect": "mysql",
+    "pool": {
+      "min": 0,
+      "max": 5,
+      "idle": 10000
+    },
+    "define": {
+      "charset": "utf8",
+      "dialectOptions": {
+        "collate": "utf8_general_ci"
+      }
+    },
+    "timezone": "+07:00"
+  },
+  "staging": {
+    "username": "ment_usr",
+    "password": "fAT9nVCgKpQRDUiF",
+    "database": "ment_db",
+    "host": "144.91.123.108",
+    "dialect": "mysql",
+    "pool": {
+      "min": 0,
+      "max": 5,
+      "idle": 10000
+    },
+    "define": {
+      "charset": "utf8",
+      "dialectOptions": {
+        "collate": "utf8_general_ci"
+      }
+    },
+    "timezone": "+07:00"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "mental_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "pool": {
+      "min": 0,
+      "max": 5,
+      "idle": 10000
+    },
+    "define": {
+      "charset": "utf8",
+      "dialectOptions": {
+        "collate": "utf8_general_ci"
+      }
+    },
+    "timezone": "+07:00"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    },
+    "timezone": "+07:00"
+  }
+}

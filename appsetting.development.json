@@ -1,0 +1,20 @@
+{
+  "jwtConfig": {
+    "secretKey": "kjdsadjskadjkasdjksadjkajdajkdlkgjfdhjfjk",
+    "guestSecretKey":"dklsakldsajkghjfhhjhjhjdhjsdsddasda",
+    "expire": "7d",
+    "payload": "dsadasd"
+  },
+  "cookieConfig": {
+    "expires": 50000000000
+  },
+  "authKey": "accesstoken",
+  "rabbitMQConfig": {
+    "url": "amqp://localhost",
+    "port": 8866,
+    "maxListener": 32
+  },
+  "cacheKey":{
+    "joinIn":"guestJoinIn_"
+  }
+}
